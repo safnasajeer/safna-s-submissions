@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Poppins:wght@600&display=swap');
+    *{
+        box-sizing: border-box;
+    }
+.align-staer
+    {
+        align-items: flex-start;
+    }
+body
+    {
+        color: hsl(192, 100%, 9%);
+       
+        font-family: 'Open Sans',sans-serif;
+        margin: 0;
+    }
+.btn
+    {   border-radius: 50px;
+        background-color: #fff;
+        box-shadow: 0 0 10px rgba(0, 0, 0,0.15);
+        font-size:16px ;
+        border:none;
+        cursor:pointer;
+        font-weight: 700;
+        padding: 15px 60px;
+    }
+.box
+    {
+        background-color: white;
+        border-radius: 15px;
+        box-shadow: 0 0 10px rgba(0, 0, 0,0.15); 
+        margin:40px 0;
+        padding: 60px;
+    }
+.btn-primary
+    {
+        background-color: hsl(322, 100%, 66%);
+        color: #fff;
+    }
+h1,h2
+    {
+        font-family: 'Poppins',sans-serif;
+    }
+.center
+    {
+        text-align: center;
+    }
+
+.container
+    {
+        padding:0 20px ;
+        margin:0 auto;
+        max-width: 100%;
+        width:1000px;
+    }
+.flex
+    {
+        display: flex;
+        align-items: center;
+    }
+.flex> div
+    {
+    flex:1;
+    }
+img
+    {
+        max-width: 100%;
+    }
+header
+    {
+        background-image:url('./images/bg-hero-desktop.svg');
+        background-size: cover;
+        background-position:center center ;
+        background-color:   hsl(193, 100%, 96%);
+        padding: 40px 0;
+
+    }
+.header-img
+    {
+        margin-top: 30px;
+    }
+nav
+    {
+        align-items: center;
+        justify-content: space-between;
+        margin-bottom: 40px;
+    }
+.small-box
+    {
+        display: inline-block;
+        position: relative;
+        /* margin-bottom: -12%;  instead we can gv below line*/
+        /*transform: translateY(50%);instead we can gv below line*/
+         /* margin-bottom: -120px; */
+        margin-bottom: -13%;
+        z-index: 1;
+    }
+.box img
+    {
+        width:80%;
+    }
+footer
+    {
+        background-color: hsl(192, 100%, 9%);
+        color: #fff;
+        padding: 180px 0 60px;
+/*        
+        margin-top: -140px;
+        position: relative;
+        z-index: -1; */
+    }
+footer ul
+    {
+        /* padding:0; */
+        list-style-type: none;
+    }
+
+footer ul li
+    {
+        margin-bottom:20px;
+        /* list-style-type: none; */
+    }
+footer .circle
+    {
+        border:1px solid white;
+        border-radius: 50%;
+        color:#fff;
+        display:inline-flex;
+        align-items: center;
+        justify-content: center;
+        margin-right: 10px;
+       height:40px;
+       width:40px; 
+       text-decoration: none;
+    }
+    .icons
+    {
+        /* display: flex;
+        flex-direction: row; same below*/
+        display: inline-flex;
+
+    }
+    footer p
+    {
+        text-align: right;
+    }
+ @media screen and (max-width: 768px){
+     body
+     {text-align: center;}
+    .flex
+    {
+        flex-direction: column ;
+    }  
+    nav.flex
+    {
+        flex-direction: row;
+    }
+/* .social-media
+    {
+        flex-direction: ;
+    } */
+
+}
+    /* <link rel=stylesheet href="https://www.cloudflare.com/ajax/lis/font-awesome/5.12.1/css/all.min.css"> */
