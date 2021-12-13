@@ -36,15 +36,9 @@ body
         background-color: hsl(322, 100%, 66%);
         color: #fff;
     }
-
 h1,h2
     {
         font-family: 'Poppins',sans-serif;
-    }
-.right
-    {
-        text-align:right;
-        margin-right: 90px;
     }
 .center
     {
@@ -63,7 +57,7 @@ h1,h2
         display: flex;
         align-items: center;
     }
-.flex> div, .flex> ul
+.flex> div
     {
     flex:1;
     }
@@ -86,7 +80,6 @@ p
     }
 .header-img
     {
-        margin-left: 20%;
         margin-top: 30px;
     }
 nav
@@ -161,12 +154,6 @@ footer .circle
      body
      {
          text-align: center;
-     }
-     .header-img
-     {
-         width:100%;
-         margin-top: 0px;
-         margin-left: 0%;
      }
     .flex
     {
