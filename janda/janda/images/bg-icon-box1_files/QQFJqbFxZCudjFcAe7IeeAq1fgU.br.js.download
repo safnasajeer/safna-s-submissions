@@ -1,0 +1,1 @@
+function ReactStopPropagation(n){n.stopPropagation()}
