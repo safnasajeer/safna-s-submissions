@@ -1,0 +1,48 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap');
+// @import url('https://unpkg.com/bootstrap@3.3.7/dist/css/bootstrap.min.css');
+*{
+    box-sizing:border-box;
+}
+body{
+
+    background-image: url("./assets/snow.jpg");
+    background-size: cover;
+    background-position: center center;
+    display:flex;
+    /*fdc*/
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+h1{
+    font-weight: normal;
+    /* regular */
+    color: white;
+    font-size: 4rem;
+    margin-top: 5rem;
+
+}
+.countdoen_el
+{
+    text-align: center;
+}
+.big-text
+{
+    font-weight: bold;
+    font-size: 6rem;
+    line-height: 1;
+    margin: 0 2rem;
+}
+.countdoen_el  span
+{
+    font-size: 1.3rem;
+}
+.count-down-container
+{
+    color: white;
+    display: flex;
+}
