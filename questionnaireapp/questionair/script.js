@@ -98,7 +98,8 @@ subBtn.addEventListener('click',()=>
     else
     {
       // alert('You finished! get your self an Orange Lemonade ');
-      quizEl.innerHTML = ' You finished! '+score +' marks! get your self an Orange Lemonade' ;
+      // quizEl.innerHTML = ' You finished! '+score +' marks! get your self an Orange Lemonade' ;
+      quizEl.innerHTML = ` <h2> You answered currectly at ${score}/${quizData.length} questions. </h2> <button onclick="location.reload()"> Reload </button>`;
 
     }   
   });

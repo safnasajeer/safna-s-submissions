@@ -73,5 +73,11 @@ button
 
 button:hover
 {
-    background-color: #a245ca;
+    background-color: #732d91;
+}
+button:focus
+{
+    background-color: #5e3370;
+    outline:none;
+    /*if we are focusing our button outline goes*/
 }
