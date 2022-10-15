@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,200;1,200&display=swap" rel="stylesheet">
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+        <title>about-us</title>
+        <style>
+* {
+  box-sizing: border-box;
+  border-radius: 50px;
+   
+  /* font-family: 'Libre Franklin', sans-serif; */
+  font-family: 'Nunito Sans', sans-serif;
+ /* font-family: 'Poppins', sans-serif; */
+}
+
+.flex-container {
+    
+    box-shadow: 5px 5px 5px 5px grey;
+    margin: 100px 150px 0px   150px;
+    justify-content: center;
+    align-content: center;
+    display: flex;
+     flex-direction: row;
+    font-size: 30px;
+    text-align: center;
+    flex: 1;
+   
+
+}
+
+.flex-item-left {
+  background-color: #f1f1f1;
+ 
+ 
+}
+
+.flex-item-right {
+  background-color: rgb(217, 220, 223);
+
+  
+}
+.flex-item-right .flex-item-left 
+{
+    border-color: none;
+    padding: 100px;
+
+}
+
+/* Responsive layout - makes a one column-layout instead of two-column layout */
+@media (max-width: 800px) {
+  .flex-container {
+    flex-direction: column;
+  }
+}
+
+    </style>
+</head>
+ 
+    <body>
+        <section>
+            <div class="flex-container">
+                <div class="flex-item-left"> <h1>Who We Are ?</h1><p>GammaStack (a.k.a Grep Ruby Webtech Private limited) was started 
+                    a decade ago as a bespoke software development company and today we stand tall as an established IT solutions provider
+                     who has served for more than 500 clients throughout the globe. On the strength of technical excellence, we enable businesses to transcend their IT challenges and gain a competitive edge by leveraging bleeding edge technologies. We believe in walking an extra mile to help our clients stay ahead of the 
+                    tech curve to help them achieve faster go-to-market time and deliver NextGen products.</p></div>
+                <div class="flex-item-right"><h1>Who We Are ?</h1><p>We at GammaStack (a.k.a Grep Ruby Webtech Private limited) work 
+                    alongside our clients in significantly reducing their cost and improve the user experience through our effective
+                     software deliveries. Our tailored services help organizations to accelerate the integration and implementation 
+                     of the latest technology trends into their growth plans. We are the most notable players of the niche technologies 
+                     like AI, AR, Blockchain, RoR, Node, Angular and other battlefields of Information Technology.
+                     We have a proven track record and a solid reputation for delivering quality software, solutions and skills.</p> </div>
+            </div>
+        </section>
+    </body>
+</html>
